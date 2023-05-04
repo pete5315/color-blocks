@@ -23,9 +23,7 @@ let red=1, blue=1, green=1, yellow=1;
 
     function appendBlueBlock() {
         $('#blocks').append('<div class="block blue-fill"></p>');
-        $('#blue-count').empty();
-        blue++;
-        $('#blue-count').append(blue);
+        blueRecount();
     }
 
     function blueRecount() {
@@ -35,9 +33,7 @@ let red=1, blue=1, green=1, yellow=1;
 
     function appendYellowBlock() {
         $('#blocks').append('<div class="block yellow-fill"></p>');
-        $('#yellow-count').empty();
-        yellow++;
-        $('#yellow-count').append(yellow);
+        yellowRecount();
     }
 
     function yellowRecount() {
@@ -47,9 +43,7 @@ let red=1, blue=1, green=1, yellow=1;
 
     function appendGreenBlock() {
         $('#blocks').append('<div class="block green-fill"></p>');
-        $('#green-count').empty();
-        green++;
-        $('#green-count').append(green);
+        greeenRecount();
     }
 
     function greenRecount() {
