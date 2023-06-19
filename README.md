@@ -1,3 +1,5 @@
+This was a coding challenge assignment. It had requirements that needed to be completed within 90 minutes.
+
 # Color Blocks 🟥 🟦 🟩 🟨 Solo Challenge
 
 ## 🔥 Important Notes 🔥
